@@ -12,7 +12,7 @@ use SilverStripe\Core\Environment;
 use SilverStripe\Core\Injector\Injectable;
 
 /**
- * Mailchimp implementation of silvershop/newsletter's {@see NewsletterProvider}. A thin mapping layer: it turns a
+ * Mailchimp implementation of silvershop-suite/newsletter's {@see NewsletterProvider}. A thin mapping layer: it turns a
  * {@see NewsletterSubscription} into a Mailchimp audience member (idempotent upsert + unsubscribe via
  * {@see MailchimpClient}) and maps Mailchimp webhooks back onto the local subscription status. Mirrors the
  * Campaign Monitor adapter's shape.

@@ -10,7 +10,7 @@ use SilverStripe\Core\Injector\Injectable;
 /**
  * Thin Mailchimp Marketing API v3 client (Guzzle). Deliberately minimal — just the member upsert + unsubscribe
  * endpoints the provider needs — to avoid the official mailchimp/marketing SDK (which carries its own HTTP stack).
- * Mirrors silvershop/newsletter-campaignmonitor's CampaignMonitorClient and silvershop/search-meilisearch's
+ * Mirrors silvershop-suite/newsletter-campaignmonitor's CampaignMonitorClient and silvershop-suite/search-meilisearch's
  * MeiliClient.
  *
  * The API host is datacenter-scoped: `https://<dc>.api.mailchimp.com/3.0/`, where `<dc>` is the suffix of the API

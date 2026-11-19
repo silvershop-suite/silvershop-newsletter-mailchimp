@@ -1,7 +1,7 @@
 # silvershop-suite/newsletter-mailchimp
 
 [Mailchimp](https://mailchimp.com/) ESP adapter for
-[`silvershop-suite/newsletter`](https://github.com/RVXD/silvershop-newsletter). It implements the core's
+[`silvershop-suite/newsletter`](https://github.com/silvershop-suite/silvershop-newsletter). It implements the core's
 `NewsletterProvider` contract with a **thin Guzzle client** (no heavy official SDK) and maps subscriber changes to
 the Mailchimp Marketing API v3, plus a webhook back to the local list.
 
@@ -24,7 +24,7 @@ transitively.
 
 ```json
 "repositories": [
-    { "type": "vcs", "url": "https://github.com/RVXD/silvershop-newsletter.git" }
+    { "type": "vcs", "url": "https://github.com/silvershop-suite/silvershop-newsletter.git" }
 ]
 ```
 
